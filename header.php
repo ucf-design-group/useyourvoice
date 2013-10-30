@@ -25,7 +25,7 @@
 				<nav class="main-menu full">
 					<div class="screen-reader-text skip-link"><a href="#UPDATE ME" title="Skip to content">Skip to content</a></div>
 					<div class="compact-menu">
-						<a class="menu-toggle">Menu</a>
+						<a href="#" class="menu-toggle">Menu</a>
 						<?php get_search_form(); ?>
 					</div>
 					<ul>

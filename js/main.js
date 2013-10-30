@@ -12,16 +12,14 @@ var breakPoint = 700;
 // This function uses CSS classes to change the appearance of the menu.
 function adjustNav() {
 
-	if ($(document).width < breakPoint) {
+	if ($(document).width() < breakPoint) {
 
 		$("nav.main-menu").removeClass("full").addClass("compact");
-		$("nav.main-menu ul").hide();
 	}
 
 	else {
 
 		$("nav.main-menu").removeClass("compact").addClass("full");
-		$("nav.main-menu ul").show();
 	}
 }
 
