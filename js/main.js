@@ -15,11 +15,13 @@ function adjustNav() {
 	if ($(document).width() < breakPoint) {
 
 		$("nav.main-menu").removeClass("full").addClass("compact");
+		$("nav.main-menu ul").hide();
 	}
 
 	else {
 
 		$("nav.main-menu").removeClass("compact").addClass("full");
+		$("nav.main-menu ul").show();
 	}
 }
 
