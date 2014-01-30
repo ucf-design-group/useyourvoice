@@ -1,10 +1,9 @@
-![MiniBill](http://billcolumbia.com/minibill.png)
+# Version 1.0
 
-# Version 1.0 (Not yet pushed)
+This is a self-made Wordpress framework for use at the Office of Student Involvement at UCF.  We use it as a base for the Wordpress themes we build for OSI Agencies as well as OSI itself.
 
-After first adapting _s to create MiniBill, we have moved to a hand baked code base. Much more minimal now. *Please not that this is not version 1.0. [Check the tag](https://github.com/billcolumbia/MiniBill/tags) before use.
+**Heads Up**:  If you aren't a part of OSI, but you'd like to use this code base, feel free!  Just remember to remove the various logos from the footer.
 
-## [Doumentation](https://github.com/billcolumbia/MiniBill/wiki)
+---
 
-## Heads up! If you are not part of OSI:
-Update the footer so that you aren't pulling our logos and info. You don't want that. Make sure you have Codekit or something that can compile compass.
+Credit to [Bill Columbia](http://billcolumbia.com) for the majority of the code you see here, and [AJ Foster](http://aj-foster.com) for some of the updates.
