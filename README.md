@@ -1,9 +1,19 @@
-# Version 1.0
+# Use Your Voice
 
-This is a self-made Wordpress framework for use at the Office of Student Involvement at UCF.  We use it as a base for the Wordpress themes we build for OSI Agencies as well as OSI itself.
-
-**Heads Up**:  If you aren't a part of OSI, but you'd like to use this code base, feel free!  Just remember to remove the various logos from the footer.
-
+## Goal: Inform users how to utilize free speech areas.
 ---
 
-Credit to [Bill Columbia](http://billcolumbia.com) for the majority of the code you see here, and [AJ Foster](http://aj-foster.com) for some of the updates.
+### Pages
+
+* Home Page - Breaks off into 2 sections
+	* UCF Students
+	* UCF Non-Students
+	
+
+### Notes
+
+* Check links
+* Remove Brochure
+* Safe Form
+* Campus Map
+* No post types, just updatable pages 	
