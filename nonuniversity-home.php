@@ -1,7 +1,7 @@
 <?php 
 /* Template Name: Non-University Home */
 get_header(); ?>
-<?php include 'nav.php'; ?>
+<?php include 'nonuniversity-nav.php'; ?>
 
 			<div class="content-area">
 				<div class="main"> 

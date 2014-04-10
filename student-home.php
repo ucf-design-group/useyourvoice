@@ -1,7 +1,7 @@
 <?php 
 /* Template Name: Student Home */
 get_header(); ?>
-<?php include 'nav.php'; ?>
+<?php include 'student-nav.php'; ?>
 
 			<div class="content-area">
 				<div class="main"> 
