@@ -4,7 +4,7 @@
 			<div class="uyvLogo"></div>
 		</div>
 		<div class="taglineWrap">
-			<p>A guide to free expression &#38; assembly at UCF for Students</p>
+			<p>A guide to free expression &#38; assembly at UCF for Students.</p>
 		</div>
 	</div>
 
