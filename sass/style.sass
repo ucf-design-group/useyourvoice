@@ -104,6 +104,7 @@ footer
 	height: 300px
 	width: 500px
 	margin: auto
+	max-width: 100%
 
 .content-area
 	margin: auto
@@ -111,10 +112,11 @@ footer
 	background-color: white
 
 .splashMain
-	padding-top: 10em
-	padding-bottom: 10em
+	padding-top: 15em
+	padding-bottom: 0em
 	width: 560px
 	margin: auto
+	max-width: 100%
 
 	@extend %clearfix
 
@@ -125,6 +127,9 @@ footer
 		font-style: italic
 		clear: both
 		letter-spacing: -0.5px
+
+	@media screen and (max-width: 490px)
+		margin-top: 50px
 
 .splashNav
 	width: 560px
@@ -175,14 +180,21 @@ footer
 					background: #2E5481
 					border: solid 1px #203E5F
 
+	@media screen and (max-width: 490px)
+		ul
+			li
+				float: none
+				width: 100%
+				margin-bottom: 50px
+
 .logoWrap
 	width: 50%
-	max-width: 50%
+	max-width: 100%
 	float: left
 
 .taglineWrap
 	width: 50%
-	max-width: 50%
+	max-width: 100%
 	float: left
 	padding: 100px 100px 0px
 	text-align: center
@@ -227,7 +239,65 @@ nav
 	width: 50%
 	float: right
 
+	img
+		box-shadow: 2px 2px 5px grey
+
 .textArea
 	width: 50%
 	float: left
-	padding-right: 5em
+	padding-right: 2em
+
+@media screen and (max-width: 1060px)
+	nav, .content-area
+		padding-left: 30px
+		padding-right: 30px
+
+	.headerWrap
+		margin-right: 30px
+		margin-left: 30px
+	img
+		width: 100%
+		height: 100%
+
+@media screen and (max-width: 1000px)
+	.logoWrap, .taglineWrap
+		width: 100%
+		float: none
+		margin: auto
+
+	.taglineWrap
+		padding: 0px
+		margin-bottom: 20px
+
+	.headerWrap
+		margin: 0px
+
+@media screen and (max-width: 760px)
+	.textArea
+		width: 100%
+	.imageArea
+		width: 100%
+		text-align: center
+		img
+			height: 75%
+			width: 75%
+
+@media screen and (max-width: 690px)
+
+	nav
+		ul
+			margin: auto
+			text-align: center
+
+			li
+				float: none
+				display: inline-block
+	.imageArea
+		img
+			height: 100%
+			width: 100%
+
+@media screen and (max-width: 500px)
+	.splashMain
+		padding-right: 20px
+		padding-left: 20px
