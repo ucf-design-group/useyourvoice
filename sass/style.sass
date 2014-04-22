@@ -17,7 +17,7 @@
 // Base variables
 $baseTypeFace: 'Open Sans', sans-serif
 $blue: #70A3CF
-$darkblue: #547B9C
+$darkblue: #2B3F4F
 
 // Base layout/type
 html
@@ -30,15 +30,29 @@ body
 footer
 	background: #434a4f
 	p
+		font-size:  1.5em
 		color: white
 		a
 			text-decoration: none
 			color: $blue
+			transition: color 0.5s
+
+			&:hover
+				color: black
 			
 .splashFooter
 	background-color: $blue
 	p
+		font-size:  1.5em
 		color: #000
+
+		a
+			color: white
+			transition: color 0.5s
+
+			&:hover
+				color: $darkblue
+
 	
 // Clearfix (to use, @extend %clearfix)
 %clearfix
@@ -58,14 +72,38 @@ footer
 
 	@extend %clearfix
 
+	h1
+		font-size: 3em
+		margin-bottom: 20px
+	h2
+		font-size: 3em
+		margin-bottom: 20px
+	h3
+		font-size: 2.8em
+		margin-bottom: 20px
+	p
+		margin-bottom: 2em
+		font-size:  1.5em
+	ul
+		margin-left: 2em
+
+		li
+			font-size: 1.5em
+			margin-bottom: 2em
+			list-style-type: circle
+	a
+		text-decoration: none
+		transition: color 0.5s
+
+		&:hover
+			color: $blue
+
 
 .uyvLogo
 	background-image: url('resources/UYV-Logo.png')
 	height: 300px
 	width: 500px
 	margin: auto
-
-.splashBody
 
 .content-area
 	margin: auto
@@ -97,9 +135,13 @@ footer
 	padding-top: 84px
 	
 	ul
+		margin-left: 0
 		li
 			float: left
 			width: 48.7%
+			list-style-type: none
+			font-size: 1em
+			margin-bottom: 0
 			a
 				font-size: 2em
 				text-decoration: none
@@ -142,7 +184,7 @@ footer
 	width: 50%
 	max-width: 50%
 	float: left
-	padding: 125px 100px
+	padding: 100px 100px 0px
 	text-align: center
 	font-style: italic
 	font-family: "clavo"
@@ -152,7 +194,6 @@ footer
 		font-size: 2.3em
 
 .headerWrap
-	padding-top: 40px
 	width: 1000px
 	max-width: 100%
 	margin: auto
@@ -190,10 +231,3 @@ nav
 	width: 50%
 	float: left
 	padding-right: 5em
-
-	h1
-		font-size: 4em
-		margin-bottom: 30px
-	p
-		margin-bottom: 2em
-		font-size:  1.5em

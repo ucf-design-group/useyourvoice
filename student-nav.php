@@ -1,7 +1,7 @@
 <header>
 	<div class="headerWrap">
 		<div class="logoWrap">
-			<div class="uyvLogo"></div>
+			<a href="http://osi.ucf.edu/useyourvoice/"><div class="uyvLogo"></div></a>
 		</div>
 		<div class="taglineWrap">
 			<p>A guide to free expression &#38; assembly at UCF for Students.</p>
